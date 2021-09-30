@@ -229,7 +229,7 @@ h6 {
   font-family: Lato, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   font-weight: bold;
   line-height: 1.5;
-  margin: 30px 0 15px;
+  margin: 20px 0 15px;
 }
 h1 {
   font-size: 1.5em;
@@ -2383,6 +2383,10 @@ pre code {
 .post-reward div span {
   display: block;
 }
+.post-reward div:hover span {
+  animation: next-roll 0.1s infinite linear;
+  pointer-events: none;
+}
 .post-reward img {
   display: inline-block;
   margin: 0.8em 2em 0;
@@ -2840,7 +2844,7 @@ ul.breadcrumb li:last-child {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #b69865;
+  background: #ebff21;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
